@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1 class="title">Join Us</h1>
+            <p class="subtitle">Create your account to get started</p>
+            <form id="signupForm">
+                <div class="input-wrapper">
+                    <input type="text" id="username" required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="name" required>
+                    <label for="name">Full Name</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="password" id="confirmPassword" required>
+                    <label for="confirmPassword">Confirm Password</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="url" id="github" placeholder="https://github.com/username">
+                    <label for="github">GitHub Profile Link</label>
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="btn primary-btn">OK</button>
+                    <button type="button" class="btn secondary-btn" id="cancelButton">Cancel</button>
+                    <button type="reset" class="btn reset-btn">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>

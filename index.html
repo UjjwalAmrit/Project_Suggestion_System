@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Suggest System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/229136c471.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="assests/images/logo_img.png" alt="Logo">
+            <span>Project Suggest System</span>
+        </div>
+        <div class="search-bar">
+            <i class="fa-brands fa-searchengin"></i>
+            <input type="text" placeholder="Search your project">
+        </div>        
+        <div class="nav-items">
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#projects">contact Us</a></li>
+                <li><a href="#contact">login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="banner">
+                <img src="assests/images/banner_img.png" alt="Banner" />
+            </div>
+            <div class="text-section">
+                <h1>Welcome</h1>
+                <p>Welcome to the Project Suggestion System – Where Ideas Ignite and Innovations Thrive!</p>
+                <br><br>
+                <h5>
+                    Here, dreamers and doers unite. If you’re bursting with creativity and eager to
+                    share your groundbreaking projects, or if you’re searching for that spark to shape
+                    your vision, you’re in the right place. Powered by AI and driven by collaboration,
+                    our platform is your companion in turning ideas into reality. Let’s transform
+                    inspiration into innovation, together!
+                </h5>
+            </div>
+        </div>  
+        <div class="buttons">
+            <button><a href="#">Start Building</a></button>
+            <button><a href="#">Contribute Project</a></button>
+        </div>            
+        
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="assests/images/About_img.png">
+            </div>
+            <div class="about-content">
+                <p>Welcome to the Project Suggestion System – Where Ideas Ignite and Innovations Thrive! Here, dreamers and doers unite. If you’re bursting with creativity and eager to share your groundbreaking projects, or if you’re searching for that spark to shape your vision, you’re in the right place.</p>
+                <p>Powered by AI and driven by collaboration, our platform is your companion in turning ideas into reality. Let’s transform inspiration into innovation, together!</p>
+                <button>See more...</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="feedback-contact">
+        <!-- Feedback Form -->
+        <div class="feedback-form">
+            <h2>Feedback Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <div class="input-row">
+                    <div class="input-half">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-half">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+                    </div>
+                </div>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Feedback" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <div class="heading-container">
+                <h2>Contact</h2>
+                <h3 class="us">Us</h3>
+            </div>
+            <p>
+                <span class="icon address-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </span>
+                <strong>Address:</strong> 123 Main Street, City, Country
+            </p>
+            <p>
+                <span class="icon phone-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </span>
+                <strong>Phone:</strong> +123 456 7890
+            </p>
+            <p>
+                <span class="icon email-icon">
+                    <i class="fas fa-envelope"></i>
+                </span>
+                <strong>Email:</strong> contact@example.com
+            </p>
+    
+            <!-- Social Media Icons -->
+            <div class="social-media">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Notification Section -->
+    <section class="notification">
+        <h2>Get Notified About Our New Updates:</h2>
+        <div class="subscribe">
+            <input type="email" id="subscribe-email" placeholder="Enter your email">
+            <button type="button">Subscribe</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Project Suggest System. All rights reserved. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contribution Guidelines</p>
+    </footer>
+</body>
+</html>

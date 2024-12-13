@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contribute Your Project</title>
+    <link rel="stylesheet" href="css/add.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1 class="title">Contribute Your Project</h1>
+            <p class="subtitle">Share your innovation and inspire others!</p>
+            <form id="contributeForm">
+                <div class="input-wrapper">
+                    <input type="text" id="projectTitle" required>
+                    <label for="projectTitle">Project Title</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="technologyUsed" required>
+                    <label for="technologyUsed">Technology Used</label>
+                </div>
+                <div class="input-wrapper">
+                    <label for="difficultyLevel">Difficulty Level:</label>
+                    <select id="difficultyLevel" required>
+                        <option value="" disabled selected>Choose Level</option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <textarea id="description" rows="4" required></textarea>
+                    <label for="description">Brief Description</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="url" id="githubLink" required>
+                    <label for="githubLink">GitHub Link</label>
+                </div>
+                <div class="input-wrapper switch-container">
+                    <label>Is this project paid?</label>
+                    <input type="checkbox" id="isPaid">
+                    <span class="switch"></span>
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="btn primary-btn">Submit</button>
+                    <button type="reset" class="btn reset-btn">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/add.js"></script>
+</body>
+</html>
